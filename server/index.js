@@ -2,7 +2,9 @@ import express from 'express';
 import mongoose from 'mongoose';
 import Card from "./routes/CardDetails.js";
 import cors from "cors";
+import dotenv from "dotenv";
 
+dotenv.config();
 
 const app = express();
 
@@ -11,7 +13,7 @@ app.use(cors());
 const port = 5000;
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://vedant18:HuTjYr28N6nyrKQV@geeks.z5ku2lb.mongodb.net/").then((db) => {
+mongoose.connect(process.env.MONGO_CRED).then((db) => {
     console.log("Connected to MongoDB!");
 });
 
