@@ -11,8 +11,6 @@ const Navbar = () => {
                     <li className="p-4"><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-
-
         </div>
         </>
     );

@@ -3,7 +3,7 @@ import image from './../../images/geek.png'
 export default function Footer(){
     return(
         <>
-            <footer className="bg-white shadow dark:bg-gray-900 fixed bottom-0 left-0 right-0 " id="foot">
+            <footer className="bg-white shadow dark:bg-gray-900 bottom-0 left-0 right-0 " id="foot">
                 <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex " >
                     <div className="sm:flex sm:items-center sm:justify-evenly">
 
