@@ -8,7 +8,6 @@ const HomePage = () =>{
         <NavBar />
         <Card />
         <Footer />
-
         </>
     )
 }
