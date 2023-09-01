@@ -1,11 +1,12 @@
 import NavBar from '../common/Navbar';
 import Footer from '../common/Footer';
 
+//cpmmnt
+
 function NewCard() {
   return (
     <div className="min-h-screen flex flex-col">
       <NavBar />
-
       <div className="flex-grow mt-16 px-4"> 
         <div className="w-full max-w-xs mx-auto"> 
           <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -41,7 +42,6 @@ function NewCard() {
         </form>
         </div>
       </div>
-
       <Footer />
     </div>
   );

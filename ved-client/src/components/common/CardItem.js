@@ -1,12 +1,9 @@
 import { useState } from "react";
-
 const CardItem = ({ item_name, item_category, item_description, link, image }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
-
   const toggleDescription = () => {
     setShowFullDescription(!showFullDescription);
   };
-
   return (
     <a
       href={link}
@@ -38,5 +35,4 @@ const CardItem = ({ item_name, item_category, item_description, link, image }) =
     </a>
   );
 };
-
 export default CardItem;

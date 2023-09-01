@@ -1,5 +1,5 @@
 import './Login.css'
-import Footer from './../components/common/Footer'
+import Footer from '../../components/common/Footer'
 
 function Login() {
     return (

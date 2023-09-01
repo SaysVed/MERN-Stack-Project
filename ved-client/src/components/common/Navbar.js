@@ -1,4 +1,3 @@
-
 const Navbar = () => {
     return (
         <>
@@ -15,5 +14,4 @@ const Navbar = () => {
         </>
     );
 }
-
 export default Navbar;

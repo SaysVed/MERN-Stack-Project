@@ -5,31 +5,24 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 dotenv.config();
-
 const app = express();
-
 app.use(cors());
-
 const port = 5000;
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_CRED).then((db) => {
     console.log("Connected to MongoDB!");
 });
-
 app.get("/", (req, res) => {
     res.status(401).json({ 
         message: "Server working fine!",
     })
 })
-
 app.listen(port, () => {
     console.log("Server listening on port "+ port);
 });
 
-
 //API
-
 app.post("/create", (req, res) => {
     Card.create({
         link: req.body.link,
