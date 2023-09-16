@@ -7,7 +7,7 @@ const Navbar = () => {
                     <li className="p-4"> <a href="#" className="text-sky-400 ">Home</a></li>
                     <li className="p-4"><a href="#">About</a></li>
                     <li className="p-4"><a href="#">Shop</a></li>
-                    <li className="p-4"><a href="#">Contact Us</a></li>
+                    <li className="p-4"><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>

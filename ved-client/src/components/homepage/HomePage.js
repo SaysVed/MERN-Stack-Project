@@ -1,6 +1,7 @@
 import NavBar from '../common/Navbar';
 import Footer from '../common/Footer';
 import Card from '../common/trial';
+
 const HomePage = () =>{
     return(
         <>

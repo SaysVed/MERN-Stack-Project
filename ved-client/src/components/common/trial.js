@@ -1,6 +1,7 @@
 import CardItem from "./CardItem";
 import axios from "axios";
 import { useState, useEffect } from "react";
+
 function Card() {
   const [cards, setCards] = useState([]);
   useEffect(() => {
